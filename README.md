@@ -45,7 +45,10 @@ Create views, Stored procedure, User_defined functions, CTE
 ![gross monthly sales report by customer!](https://github.com/user-attachments/assets/beff2dfb-cf4b-4481-b4f8-a498029c85ad)
 
 
-  - 
+   - one issue arises: some customer like Amazon has two customer_code in the database<br>
+     -- this stored procedure need to be enhanced using "find_in_set"
+
+     ![gross monthly sales report by customer!](https://github.com/user-attachments/assets/6c4c9376-eb22-47d7-a25a-847ae482a8d4)
 
 
 
