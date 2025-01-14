@@ -25,11 +25,38 @@ Create views, Stored procedure, User_defined functions, CTE
 4.	Bulit data models (created star schema and snowflake schema diagram)
 
 ## task 1:
-1. product owner would like to have a product wise sales report (aggregated on monthly lever) for custonmer - Croma in fiscal year 2021
-   - utilized multiple joins to generate the table which is stored in view
-   - created user-defined function "get_fiscal_year" to retrive the fiscal year of the date
+1. Product owner would like to have a product wise sales report (aggregated on monthly lever) for custonmer - Croma in fiscal year 2021
+    - created user-defined function "get_fiscal_year" and "get_fiscal_quarter) for later repeated use
+      
+   ![user-defined functions!](https://github.com/user-attachments/assets/7812f81a-a5db-48de-81a6-9ed4b5fe1462)
+   
+   ![user-defined functions!](https://github.com/user-attachments/assets/eb7fad47-bbb1-40a6-af21-3906c69a3fe1)
 
-   ![product wise monthly report!](https://github.com/user-attachments/assets/7374698a-4eac-4e3f-852c-288ac1c49795)
 
-2. create monthly gross sales report for any customer
-   - deployed stored procedure to achieve automation
+    - utilized multiple joins to generate the table which is stored in view
+   
+   ![product wise monthly report!](https://github.com/user-attachments/assets/7374698a-4eac-4e3f-852c-288ac1c49795)<br>
+
+<br>
+
+2. Create monthly gross sales report for customers 
+   - deployed stored procedure to achieve automation and enhance efficiency
+
+![gross monthly sales report by customer!](https://github.com/user-attachments/assets/beff2dfb-cf4b-4481-b4f8-a498029c85ad)
+
+
+  - 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
