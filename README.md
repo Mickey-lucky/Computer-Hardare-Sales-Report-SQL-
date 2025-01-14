@@ -26,7 +26,10 @@ Create views, Stored procedure, User_defined functions, CTE
 
 ## task 1:
 1. product owner would like to have a product wise sales report (aggregated on monthly lever) for custonmer - Croma in fiscal year 2021
-   utilized multiple joins and created user-defined function get_fiscal_year to retrive the fiscal year of the date
+   - utilized multiple joins to generate the table which is stored in view
+   - created user-defined function "get_fiscal_year" to retrive the fiscal year of the date
 
-3. create monthly gross sales report for any customer
-   deployed stored procedure to create this report to achieve automation
+   ![product wise monthly report!](https://github.com/user-attachments/assets/7374698a-4eac-4e3f-852c-288ac1c49795)
+
+2. create monthly gross sales report for any customer
+   - deployed stored procedure to achieve automation
