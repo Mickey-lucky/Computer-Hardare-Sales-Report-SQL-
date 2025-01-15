@@ -16,7 +16,7 @@ Project Overview: The project delved into datasets of a consumer products compan
 ## Tools & Platform 
 MySQL, SQL, Excel, Jira
 
-## SQL Techniques used:
+## SQL techniques/functions used:
 Create views, Stored procedure, User_defined functions, CTE
 
 ## Key Steps:
@@ -24,7 +24,7 @@ Create views, Stored procedure, User_defined functions, CTE
 2.	Performed data cleaning and ETL in power query
 4.	Bulit data models (created star schema and snowflake schema diagram)
 
-## task 1:
+## tasks 1 (Finance function):
 1. Product owner would like to have a product wise sales report (aggregated on monthly lever) for custonmer - Croma in fiscal year 2021
     - created user-defined function "get_fiscal_year" and "get_fiscal_quarter) for later repeated use
       
@@ -45,15 +45,16 @@ Create views, Stored procedure, User_defined functions, CTE
 ![gross monthly sales report by customer!](https://github.com/user-attachments/assets/beff2dfb-cf4b-4481-b4f8-a498029c85ad)
 
 
-   - one issue arises: some customer like Amazon has two customer_code in the database<br>
+- one issue arises: some customer like Amazon has two customer_code in the database<br>
      -- this stored procedure need to be enhanced using "find_in_set"
 
      ![gross monthly sales report by customer!](https://github.com/user-attachments/assets/6c4c9376-eb22-47d7-a25a-847ae482a8d4)
 
 
+3. create stored procedure to determine market badge for a specific market
+ - if total quantity sold > 5 million, the market is considered gold else it is silver.
 
-
-
+ ![determine market badge!](https://github.com/user-attachments/assets/fbda2243-583a-4c9f-abc4-558baf27c791)
 
 
 
