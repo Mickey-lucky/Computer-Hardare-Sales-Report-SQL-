@@ -68,8 +68,17 @@ Create views, Stored procedure, User_defined functions, CTE
 
 
 2. create stored procedure for TOP N prodcut, market and customers by net_sales<br>
-![TOP N Customers!](https://github.com/user-attachments/assets/0658679e-4783-4761-8159-71eba82cd7c0)<br><br>
+![Top N Customers!](https://github.com/user-attachments/assets/0658679e-4783-4761-8159-71eba82cd7c0)<br><br>
+- Stored procedure of Top N markets and Top N products are similiar to Top N customers
 
-![TOP N Products!](https://github.com/user-attachments/assets/935064dd-2f0e-43ef-9597-b61c80c5a301)<br><br>
 
-![TOP N Market!](https://github.com/user-attachments/assets/86641422-c871-4779-ac61-809f829818a9)
+
+## tasks 3 : Net sales global market share % by customers<br>
+![net sales global share %!](https://github.com/user-attachments/assets/11025527-598a-4af1-9312-d742ddf3cf66)
+
+-- add excel visualization
+
+
+## tasks 4 : Net sales% per region<br>
+
+-- add excel visualization
