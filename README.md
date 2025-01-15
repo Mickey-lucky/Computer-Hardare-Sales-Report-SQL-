@@ -14,7 +14,7 @@ Project Overview: The project delved into datasets of a consumer products compan
 
 
 ## Tools & Platform 
-MySQL, SQL, Excel
+MySQL, SQL, Excel, Jira
 
 ## SQL Techniques used:
 Create views, Stored procedure, User_defined functions, CTE
@@ -39,8 +39,8 @@ Create views, Stored procedure, User_defined functions, CTE
 
 <br>
 
-2. Create monthly gross sales report for customers 
-   - deployed stored procedure to achieve automation and enhance efficiency
+2. Create monthly gross sales report for Croma and other customers 
+   - deployed stored procedure to automate the process and enhance efficiency
 
 ![gross monthly sales report by customer!](https://github.com/user-attachments/assets/beff2dfb-cf4b-4481-b4f8-a498029c85ad)
 
