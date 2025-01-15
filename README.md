@@ -16,7 +16,7 @@ Project Overview: The project delved into datasets of a consumer products compan
 MySQL, SQL, Excel, Jira
 
 ## SQL techniques/functions used:
-Create views, Stored procedure, User_defined functions, CTE
+Create views, Stored procedure, User_defined functions, CTE, window function, 
 
 ## Key Steps:
 1.	Connected to MySQL database and loaded data to Power BI. Introduced 3 dimension tables (product, market, customer) and 7 fact sales tables(monthly_sales, monthly_ forecast, gross price, pre-invoice deduction, post-invoice deduction, freight cost, manufacturing cost). Imported 3 Excel fact tables (operating expense, market share and targets)
@@ -56,7 +56,7 @@ Create views, Stored procedure, User_defined functions, CTE
  ![determine market badge!](https://github.com/user-attachments/assets/fbda2243-583a-4c9f-abc4-558baf27c791)
 
 
-## tasks 2 : identify top markets, top products and top customers by net_sales:
+c identify top markets, top products, top customers by net_sales and market share% breakdown:
 1. generated net sales table utilizing 3 facts tables --fact_sales_monthly, fact_pre_invoice_deduction and fact_post_invoice_decuction
    -- create view of 3 tables 
 
@@ -72,12 +72,20 @@ Create views, Stored procedure, User_defined functions, CTE
 
 
 
-## tasks 3 : Net sales global market share % by customers<br>
+3: Net sales global market share % by customers<br>
 ![net sales global share %!](https://github.com/user-attachments/assets/11025527-598a-4af1-9312-d742ddf3cf66)
 
 -- add excel visualization
 
 
-## tasks 4 : Net sales% per region<br>
+4: Net sales% per region<br>
 
 -- add excel visualization
+
+
+5: -- create stored procedure for top n product by qty sold per division
+
+## tasks 3: supply chain analysis 
+
+
+
