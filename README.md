@@ -57,10 +57,19 @@ Create views, Stored procedure, User_defined functions, CTE
  ![determine market badge!](https://github.com/user-attachments/assets/fbda2243-583a-4c9f-abc4-558baf27c791)
 
 
+## tasks 2 : identify top markets, top products and top customers by net_sales:
+1. generated net sales table utilizing 3 facts tables --fact_sales_monthly, fact_pre_invoice_deduction and fact_post_invoice_decuction
+   -- create view of 3 tables 
+
+![sales_pre_discount!](https://github.com/user-attachments/assets/1af5664a-437a-46c0-b88f-6c6a21ca6242)<br><br>
+
+![sales_post_discount and net_sales!](https://github.com/user-attachments/assets/ee1fce33-9a6c-430b-877f-6f4afc3a9000)<br><br>
 
 
 
+2. create stored procedure for TOP N prodcut, market and customers by net_sales<br>
+![TOP N Customers!](https://github.com/user-attachments/assets/0658679e-4783-4761-8159-71eba82cd7c0)<br><br>
 
+![TOP N Products!](https://github.com/user-attachments/assets/935064dd-2f0e-43ef-9597-b61c80c5a301)<br><br>
 
-
-
+![TOP N Market!](https://github.com/user-attachments/assets/86641422-c871-4779-ac61-809f829818a9)
