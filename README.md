@@ -56,8 +56,8 @@ Create views, Stored procedure, User_defined functions, CTE, window function,
  ![determine market badge!](https://github.com/user-attachments/assets/fbda2243-583a-4c9f-abc4-558baf27c791)
 
 
-c identify top markets, top products, top customers by net_sales and market share% breakdown:
-1. generated net sales table utilizing 3 facts tables --fact_sales_monthly, fact_pre_invoice_deduction and fact_post_invoice_decuction
+4. identify top markets, top products, top customers by net_sales and market share% breakdown:
+  - 1. generated net sales table utilizing 3 facts tables --fact_sales_monthly, fact_pre_invoice_deduction and fact_post_invoice_decuction
    -- create view of 3 tables 
 
 ![sales_pre_discount!](https://github.com/user-attachments/assets/1af5664a-437a-46c0-b88f-6c6a21ca6242)<br><br>
@@ -66,24 +66,24 @@ c identify top markets, top products, top customers by net_sales and market shar
 
 
 
-2. create stored procedure for TOP N prodcut, market and customers by net_sales<br>
+ - 2. create stored procedure for TOP N prodcut, market and customers by net_sales<br>
 ![Top N Customers!](https://github.com/user-attachments/assets/0658679e-4783-4761-8159-71eba82cd7c0)<br><br>
 - Stored procedure of Top N markets and Top N products are similiar to Top N customers
 
 
 
-3: Net sales global market share % by customers<br>
+5: Net sales global market share % by customers<br>
 ![net sales global share %!](https://github.com/user-attachments/assets/11025527-598a-4af1-9312-d742ddf3cf66)
 
 -- add excel visualization
 
 
-4: Net sales% per region<br>
+6: Net sales% per region<br>
 
 -- add excel visualization
 
 
-5: -- create stored procedure for top n product by qty sold per division
+7: -- create stored procedure for top n product by qty sold per division
 
 ## tasks 3: supply chain analysis 
 
